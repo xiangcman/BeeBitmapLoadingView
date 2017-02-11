@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BeeLoadingView">
+        <attr name="animate" format="enum">
+            <enum name="colorFul" value="1" />
+            <enum name="rotate" value="2" />
+            <enum name="colorArotate" value="3" />
+        </attr>
+        <!--每一个item的size大小-->
+        <attr name="load_size" format="float" />
+        <!--控制切换图片或是颜色的时间，单位是: 每一次/毫秒-->
+        <attr name="change_duration" format="integer" />
+        <!--控制旋转的动画速度,单位是:360度/毫秒-->
+        <attr name="rotate_duration" format="integer" />
+
+        <attr name="bitmapStyle" format="boolean" />
+    </declare-styleable>
+</resources>
